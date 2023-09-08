@@ -11,7 +11,7 @@ import java.net.URL;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        String myurl="https://api.nationalize.io/?name=nathaniel";
+        String myurl="https://api.chucknorris.io/jokes/random";
         int responceCode=0;
         HttpURLConnection connection=null;
         URL url=null;
